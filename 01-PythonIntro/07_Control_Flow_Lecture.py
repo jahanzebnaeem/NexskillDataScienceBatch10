@@ -75,6 +75,7 @@ else:
 
 
 # To add more conditions (like else if) you just use a single phrase "elif"
+# 'to' == 'To' 1 == 1
 
 if 1 == 2:
     print('first')

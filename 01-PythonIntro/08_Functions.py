@@ -127,7 +127,7 @@ def addEvenOnly(num1,num2):
     """
     INPUT: Two numbers
     OUTPUT: False if both numbers are not even,
-    the sum if both numbers ar even
+    the sum if both numbers are even
     """
     if (num1 % 2!=0) or (num2 % 2 != 0):
         return False
