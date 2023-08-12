@@ -66,8 +66,31 @@ Class to Class\
 \
 Overriding\
 Overloading\
+Sum (a, b) \{\
+	return a+b;\
+\}\
 \
-Interface\
+Sum (a) \{\
+	return 1+a;\
+\}\
+\
+Sum (1,2);\
+\
+\
+Interface (implements relation)\
+Interface Maths \{\
+	sum(a, b);\
+	sub(a, b);\
+	mul(a, b);\
+\}\
+\
+Class Mathematics : Maths \{\
+	sum (a, b) \{\
+		return a+b;\
+	\}\
+	sub\
+	mul\
+\}\
 Structure\
 Enumeration\
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
@@ -84,7 +107,7 @@ Static Class\
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 \cf0 Bugs/Errors/Exceptions\
 Exceptions handeling\
-Try Catch\
+Try Catch Finally\
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
 \cf0 \
 Coupling\
